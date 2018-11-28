@@ -9,7 +9,7 @@ import os
 
 class install_script:
 
-    password = '123qweasd'
+    password = ' '
 
     programs = ['sudo apt install git', 'sudo apt install minicom',
                 'sudo apt install python-pip', 'sudo apt install python-pip3',
