@@ -17,14 +17,15 @@ class install_script:
                 'sudo apt install gedit', 'sudo apt install git']
 
     py_packeges = ['sudo apt install python python-tk', 'sudo apt install python python3-tk',
-                   'sudo pip install schedule', 'sudo pip3 install schedule']
+                   'pip install schedule', 'pip3 install schedule']
 
     def auto_install(self, programs, password):
         for program in programs:
+            print('Out put for '+str(program) + ':')
             debug = os.system('echo %s|sudo -S %s' % (password, program))
-            print(str(program))
-            print(str(debug))
-            print('\n')
+            print('return='+str(debug))
+            print('\n\n\n')
+
 
     def install_usefull_programs(self):
         self.auto_install(self.programs, self.password)
