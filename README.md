@@ -1,2 +1,2 @@
-# auto-sens
-sensors systems
+# Setup script
+Sensors system
