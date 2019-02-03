@@ -10,7 +10,9 @@ import os
 class install_script:
 
     password = ' '
-
+    
+    crypto = ['sudo apt install ocl-icd-opencl-dev','sudo apt install curl',
+              'sudo apt install build-essential cmake git libgit2-dev clang libncurses5-dev libncursesw5-dev zlib1g-dev pkg-config libssl-dev llvm']
     programs = ['sudo apt install git', 'sudo apt install minicom',
                 'sudo apt install python-pip', 'sudo apt install python-pip3',
                 'sudo apt install gedit', 'sudo apt install gparted'
