@@ -16,7 +16,8 @@ class install_script:
     programs = ['sudo apt install git', 'sudo apt install minicom',
                 'sudo apt install python-pip', 'sudo apt install python-pip3',
                 'sudo apt install gedit', 'sudo apt install gparted'
-                'sudo apt install gedit', 'sudo apt install git']
+                'sudo apt install gedit', 'sudo apt install git'
+		'sudo apt install speedtest-cli']
 
     py_packeges = ['sudo apt install python python-tk', 'sudo apt install python python3-tk',
                    'pip install schedule', 'pip3 install schedule']
